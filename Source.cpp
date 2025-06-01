@@ -4,6 +4,7 @@
 #include <condition_variable>
 #include <chrono>
 #include <fstream>
+#include <random>
 
 #define RED "\033[31m"
 #define GREEN "\033[32m"
@@ -135,6 +136,7 @@ public:
 
 int main() {
 	system("chcp 65001 > nul");
+	srand(static_cast<unsigned int>(time(0))); // Seed for random number generation
 	string fileName = "game_data.txt"; 
 	CastSpelling* game = new CastSpelling(fileName);
 	thread t1(&CastSpelling::mannaAccumulation, game);

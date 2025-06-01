@@ -1,5 +1,5 @@
 Game started: Cast Spelling Game initialized.
-Manna accumulated successfully!
 Spelling Remembered!
+Manna accumulated successfully!
 Avada Kedavra spell casted!
 Game ended: Cast Spelling Game finished.
